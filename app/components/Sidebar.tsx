@@ -28,8 +28,8 @@ export const Sidebar = () => {
     >
       <div className="flex items-center flex-row flex-grow-0 mb-2 h-10 mr-4 justify-between">
         <Link href="/" className='flex items-center'>
-          <Image src={logo} className="ml-1" alt="HiveChat logo" width={24} height={24} />
-          <HivechatText width={104} height={26} />
+          {/* <Image src={logo} className="ml-1" alt="HiveChat logo" width={24} height={24} />
+          <HivechatText width={104} height={26} /> */}
         </Link>
         <Button
           icon={<ToggleSidebar style={{ 'color': '#999', 'fontSize': '20px', 'verticalAlign': 'middle' }} />}
